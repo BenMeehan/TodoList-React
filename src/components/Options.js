@@ -5,7 +5,10 @@ const Options = (props) => {
   return (
     <div>
       {props.options.length === 0 && (
-        <p className="ui sub header red">
+        <p
+          className="ui sub header red"
+          style={{ fontSize: "20px", paddingTop: "1%" }}
+        >
           Please enter something to get started!
         </p>
       )}
